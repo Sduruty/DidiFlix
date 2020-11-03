@@ -1,1 +1,64 @@
 /* Other rules */
+/* ----- General ----- */
+html {
+    background-color: black;
+  }
+  
+  .App {
+    background-color: black;
+  }
+  /* ----- Logos  ----- */
+  .logo {
+    height: 30px;
+    margin: 35px 0 50px 50px;
+  }
+  
+  .wrapper img {
+    width: 220px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin: 0 0 45px 50px;
+    background-color: black;
+  }
+  
+  .section {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+   
+  }
+  .title {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px 50px;
+  }
+  /* ----- scrollbars ----- */
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+/* ----- FOOTER ----- */
+  footer{
+    color:white;
+      text-align: center;
+  }
+  footer span{
+      font-weight: bold;
+  }
+  footer .react{
+      color:#5ED3F3;
+  }
+  
+  footer a:link{
+    color :#5C47D3;
+      }
+  footer a:visited{
+      color:#5C47D3;
+  }
+  footer a:hover{
+      font-size: 25px;
+  }
